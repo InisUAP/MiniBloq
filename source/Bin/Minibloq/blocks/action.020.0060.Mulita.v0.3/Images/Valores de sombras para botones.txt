@@ -1,0 +1,2 @@
+Resplandor exterior oscuro: 5 y 8
+Resplandor exterior claro: 11 y 21

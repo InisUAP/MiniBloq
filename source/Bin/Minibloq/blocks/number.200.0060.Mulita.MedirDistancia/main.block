@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block xmlns="http://block.namespaces.minibloq.org" xmlns:minibloq="http://minibloq.org" MinibloqVersion="0.8.Beta">
+
+<!--Este bloque especifica el bloque principal que se coloca en el panel de acciones. -->
+
+    <properties>
+		<name>Mulita-Medir</name>
+		<function>Sensor</function>
+		<loadAction>load</loadAction>
+    </properties>
+    <code>
+		<dataType>number</dataType>		Tipo "void" es un bloque tipo accion(se carga en el panel de acciones).
+		<initialCode>
+			<line0>mulita.</line0>		En las "lines" se especifica el codigo que va a cargarse al arduino.
+		</initialCode>		
+		<paramListStart></paramListStart>
+		<keywords1>mulita</keywords1>	
+	</code>
+    <interface>
+		<originalSize>
+			<width>blockDefaultWidth::</width>
+			<height>blockDefaultHeight::</height>
+		</originalSize>
+        <childFactor>0.9</childFactor>
+        <defaultBackgroundColour0>
+			<R>setterBlockColour0R::</R>
+			<G>setterBlockColour0G::</G>
+			<B>setterBlockColour0B::</B>
+		</defaultBackgroundColour0>
+        <defaultBackgroundColour1>
+			<R>setterBlockColour1R::</R>
+			<G>setterBlockColour1G::</G>
+			<B>setterBlockColour1B::</B>
+		</defaultBackgroundColour1>
+		<picker>
+			<imagesBasePath>thisBlockPath::</imagesBasePath>
+			<default>Images/PickerDefault.png</default>
+			<hover>Images/PickerHover.png</hover>
+			<pressed>Images/PickerPressed.png</pressed>
+			<disabled>Images/PickerDisabled.png</disabled>
+		</picker>
+		<blockButton>
+			<has>true</has>
+			<imagesBasePath>thisBlockPath::</imagesBasePath>
+			<default>Images/BlockDefault.png</default>
+			<disabled>Images/BlockDisabled.png</disabled>
+		</blockButton>
+	</interface>
+	<params>
+		<value>
+			<dataType>Medición</dataType>
+			<imagesBasePath>themePath::</imagesBasePath>
+			<notAssigned>ParamNotAssigned.png</notAssigned>
+			<default>ParamDefault.png</default>
+			<hover>ParamHover.png</hover>
+			<pressed>ParamPressed.png</pressed>
+			<disabled>ParamDisabled.png</disabled>
+		</value>
+	</params>
+	<friends>
+		<MulitaMedirDistancia>MulitaMedirDistancia</MulitaMedirDistancia>
+	</friends>
+</block>

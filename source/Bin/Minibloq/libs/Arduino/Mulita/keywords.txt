@@ -1,0 +1,18 @@
+# Syntax Coloring Map For ExampleLibrary
+
+# Datatypes (KEYWORD1)
+Mulita	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+adelante	KEYWORD2
+atras	KEYWORD2
+izquierda	KEYWORD2
+derecha	KEYWORD2
+medirDistancia	KEYWORD2
+bajarFibron	KEYWORD2
+subirFibron	KEYWORD2
+fin	KEYWORD2
+MoverServo	KEYWORD2
+apagarMotores	KEYWORD2
+
+

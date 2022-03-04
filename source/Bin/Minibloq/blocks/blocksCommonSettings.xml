@@ -3,7 +3,9 @@
 	<properties>
 		<actionDataType>void</actionDataType>
 	</properties>
+
 	<variables>
+
 		<blockDefaultWidth::>135</blockDefaultWidth::>
 		<blockDefaultHeight::>57</blockDefaultHeight::>
 
@@ -13,72 +15,72 @@
 		<mediumGettersDefaultWidth::>110</mediumGettersDefaultWidth::>
 		<smallGettersDefaultWidth::>56</smallGettersDefaultWidth::>
 		
-		<flowBlockColour0R::>255</flowBlockColour0R::>
-		<flowBlockColour0G::>235</flowBlockColour0G::>
-		<flowBlockColour0B::>85</flowBlockColour0B::>
-		
-		<flowBlockColour1R::>255</flowBlockColour1R::>
-		<flowBlockColour1G::>150</flowBlockColour1G::>
-		<flowBlockColour1B::>0</flowBlockColour1B::>
+		<flowBlockColour0R::>255</flowBlockColour0R::>	<!--Color primer bloqque -init board   249 217 154    209 192 121-->
+		<flowBlockColour0G::>240</flowBlockColour0G::>
+		<flowBlockColour0B::>156</flowBlockColour0B::>
 
-		<operationBlockColour0R::>103</operationBlockColour0R::>
-		<operationBlockColour0G::>103</operationBlockColour0G::>
-		<operationBlockColour0B::>103</operationBlockColour0B::>	
+		<flowBlockColour1R::>243</flowBlockColour1R::>	
+		<flowBlockColour1G::>218</flowBlockColour1G::>
+		<flowBlockColour1B::>108</flowBlockColour1B::>
 
-		<operationBlockColour1R::>18</operationBlockColour1R::>
-		<operationBlockColour1G::>18</operationBlockColour1G::>
-		<operationBlockColour1B::>18</operationBlockColour1B::>	
-		
-		<getterBlockColour0R::>213</getterBlockColour0R::>
-		<getterBlockColour0G::>85</getterBlockColour0G::>
-		<getterBlockColour0B::>255</getterBlockColour0B::>	
-		
-		<getterBlockColour1R::>128</getterBlockColour1R::>
-		<getterBlockColour1G::>0</getterBlockColour1G::>
-		<getterBlockColour1B::>255</getterBlockColour1B::>	
+		<operationBlockColour0R::>173</operationBlockColour0R::>
+		<operationBlockColour0G::>213</operationBlockColour0G::>
+		<operationBlockColour0B::>250</operationBlockColour0B::>	
 
-		<sensorBlockColour0R::>255</sensorBlockColour0R::>
-		<sensorBlockColour0G::>255</sensorBlockColour0G::>
-		<sensorBlockColour0B::>255</sensorBlockColour0B::>	
+		<operationBlockColour1R::>110</operationBlockColour1R::>	<!--Fondo del bloque de operaciones ej.: suma, resta, etc-->
+		<operationBlockColour1G::>180</operationBlockColour1G::>
+		<operationBlockColour1B::>200</operationBlockColour1B::>	
 		
-		<sensorBlockColour1R::>175</sensorBlockColour1R::>
-		<sensorBlockColour1G::>175</sensorBlockColour1G::>
-		<sensorBlockColour1B::>175</sensorBlockColour1B::>	
+		<getterBlockColour0R::>173</getterBlockColour0R::>
+		<getterBlockColour0G::>213</getterBlockColour0G::>
+		<getterBlockColour0B::>250</getterBlockColour0B::>	
+		
+		<getterBlockColour1R::>110</getterBlockColour1R::>	<!--Fondo del bloque de variables ej.: variable, random, etc-->
+		<getterBlockColour1G::>180</getterBlockColour1G::>
+		<getterBlockColour1B::>200</getterBlockColour1B::>	
+
+		<sensorBlockColour0R::>173</sensorBlockColour0R::>
+		<sensorBlockColour0G::>213</sensorBlockColour0G::>
+		<sensorBlockColour0B::>250</sensorBlockColour0B::>	
+		
+		<sensorBlockColour1G::>110</sensorBlockColour1G::>
+		<sensorBlockColour1R::>180</sensorBlockColour1R::>
+		<sensorBlockColour1B::>200</sensorBlockColour1B::>	
 	
-		<setterBlockColour0R::>85</setterBlockColour0R::>
-		<setterBlockColour0G::>85</setterBlockColour0G::>
+		<setterBlockColour0R::>143</setterBlockColour0R::>	<!--Color superior de los bloques en este caso de la mulita 173 213 250-->
+		<setterBlockColour0G::>201</setterBlockColour0G::>
 		<setterBlockColour0B::>255</setterBlockColour0B::>			
 
-		<setterBlockColour1R::>0</setterBlockColour1R::>
-		<setterBlockColour1G::>0</setterBlockColour1G::>
-		<setterBlockColour1B::>255</setterBlockColour1B::>			
+		<setterBlockColour1R::>110</setterBlockColour1R::>	<!--Color inferior de los bloques en este caso de la mulita-->
+		<setterBlockColour1G::>180</setterBlockColour1G::>
+		<setterBlockColour1B::>200</setterBlockColour1B::>			
 
-		<constantBlockColour0R::>85</constantBlockColour0R::>
-		<constantBlockColour0G::>255</constantBlockColour0G::>
-		<constantBlockColour0B::>85</constantBlockColour0B::>			
+		<constantBlockColour0R::>173</constantBlockColour0R::>
+		<constantBlockColour0G::>213</constantBlockColour0G::>
+		<constantBlockColour0B::>250</constantBlockColour0B::>			
 
-		<constantBlockColour1R::>0</constantBlockColour1R::>
-		<constantBlockColour1G::>255</constantBlockColour1G::>
-		<constantBlockColour1B::>0</constantBlockColour1B::>			
+		<constantBlockColour1R::>110</constantBlockColour1R::>
+		<constantBlockColour1G::>180</constantBlockColour1G::>
+		<constantBlockColour1B::>200</constantBlockColour1B::>			
 
-		<numberConstantBlockMouseOverColourR::>255</numberConstantBlockMouseOverColourR::>
-		<numberConstantBlockMouseOverColourG::>255</numberConstantBlockMouseOverColourG::>
-		<numberConstantBlockMouseOverColourB::>0</numberConstantBlockMouseOverColourB::>			
+		<numberConstantBlockMouseOverColourR::>173</numberConstantBlockMouseOverColourR::>
+		<numberConstantBlockMouseOverColourG::>213</numberConstantBlockMouseOverColourG::>
+		<numberConstantBlockMouseOverColourB::>250</numberConstantBlockMouseOverColourB::>			
 		
-		<commentBlockColour0R::>192</commentBlockColour0R::>
-		<commentBlockColour0G::>192</commentBlockColour0G::>
-		<commentBlockColour0B::>192</commentBlockColour0B::>
+		<commentBlockColour0R::>195</commentBlockColour0R::>
+		<commentBlockColour0G::>219</commentBlockColour0G::>
+		<commentBlockColour0B::>136</commentBlockColour0B::>
 
-		<commentBlockColour1R::>192</commentBlockColour1R::>
-		<commentBlockColour1G::>192</commentBlockColour1G::>
-		<commentBlockColour1B::>192</commentBlockColour1B::>
+		<commentBlockColour1R::>185</commentBlockColour1R::>
+		<commentBlockColour1G::>209</commentBlockColour1G::>
+		<commentBlockColour1B::>126</commentBlockColour1B::>
 
-		<codeBlockColour0R::>255</codeBlockColour0R::>
-		<codeBlockColour0G::>230</codeBlockColour0G::>
-		<codeBlockColour0B::>128</codeBlockColour0B::>
+		<codeBlockColour0R::>195</codeBlockColour0R::>
+		<codeBlockColour0G::>219</codeBlockColour0G::>
+		<codeBlockColour0B::>136</codeBlockColour0B::>
 
-		<codeBlockColour1R::>255</codeBlockColour1R::>
-		<codeBlockColour1G::>230</codeBlockColour1G::>
-		<codeBlockColour1B::>128</codeBlockColour1B::>
+		<codeBlockColour1R::>185</codeBlockColour1R::>
+		<codeBlockColour1G::>209</codeBlockColour1G::>
+		<codeBlockColour1B::>126</codeBlockColour1B::>
 	</variables>
 </blocksCommonSettings>

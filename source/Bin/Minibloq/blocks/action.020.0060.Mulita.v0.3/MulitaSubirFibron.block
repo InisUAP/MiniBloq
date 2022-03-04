@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block xmlns="http://block.namespaces.minibloq.org" xmlns:minibloq="http://minibloq.org" MinibloqVersion="0.81.Beta">
+    <properties>
+		<name>MulitaSubirFibron</name>
+		<function>Setter</function>
+		<loadAction>load</loadAction>
+    </properties>
+    <code>
+		<dataType>MetodosMulita</dataType>
+		<initialCode>
+			<line0>subirFibron();</line0>
+		</initialCode>
+		<keywords1>subirFibron</keywords1>
+	</code>
+    <interface>
+		<originalSize>
+			<width>operationDefaultWidth::</width>
+			<height>blockDefaultHeight::</height>
+		</originalSize>
+        <childFactor>0.9</childFactor>
+        <defaultBackgroundColour0>
+			<R>setterBlockColour0R::</R>
+			<G>setterBlockColour0G::</G>
+			<B>setterBlockColour0B::</B>
+		</defaultBackgroundColour0>
+        <defaultBackgroundColour1>
+			<R>setterBlockColour1R::</R>
+			<G>setterBlockColour1G::</G>
+			<B>setterBlockColour1B::</B>
+		</defaultBackgroundColour1>
+		<picker>
+			<imagesBasePath>thisBlockPath::</imagesBasePath>
+			<default>Images/MulitaSubirFibronPickerDefault.png</default>
+			<hover>Images/MulitaSubirFibronPickerHover.png</hover>
+			<pressed>Images/MulitaSubirFibronPickerPressed.png</pressed>
+		</picker>
+		<blockButton>
+			<has>true</has>
+			<imagesBasePath>thisBlockPath::</imagesBasePath>
+			<default>Images/MulitaSubirFibron.png</default>
+			<disabled>Images/MulitaSubirFibronDisabled.png</disabled>
+		</blockButton>
+	</interface>
+</block>

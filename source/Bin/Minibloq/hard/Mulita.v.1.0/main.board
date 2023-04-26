@@ -2,13 +2,23 @@
 <board xmlns="http://board.namespaces.minibloq.org" xmlns:minibloq="http://minibloq.org" MinibloqVersion="0.82.Beta">
     <properties>
 		<manufacturer>Inis-UAP</manufacturer>
-		<name>Mulita.v.1.0</name>
-		<url0>www.thingiverse.com/inisuap/designs</url0>
+
+		<!--Nombre de el hardware, el cual aparece en la casilla de busqueda-->
+		<name>Mulita.v.2.0</name>
+
+		<!--URLs que llevan a los sitios de la mulita-->
+		<url0>www.thingrse.com/inisuap/designs</url0>
 		<url1>www.github.com/InisUAP/mulita</url1>
+		<url2>www.mulita.uap.edu.ar</url2>
+
 		<cpu>atmega328p</cpu>
 		<clockFreq>16000000L</clockFreq>
+
+		<!--Imagen principal-->
 		<imgMain>main.jpg</imgMain>
+		<!--Logo pequeño mostrado en la barra de navegaciòn de hardware-->
 		<imgThumb>thumb.png</imgThumb>
+
 		<win_i386_lang>WinAVR/v20090313/bin</win_i386_lang>
 		<win_i386_uploader>avrdude.209130919.exe</win_i386_uploader>
 		<win_i386_corePath>Arduino.v1.5.4.r2/avr</win_i386_corePath>

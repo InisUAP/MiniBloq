@@ -7,7 +7,7 @@
 		<name>Mulita.v.2.0</name>
 
 		<!--URLs que llevan a los sitios de la mulita-->
-		<url0>www.thingrse.com/inisuap/designs</url0>
+		<url0>www.thingiverse.com/inisuap/designs</url0>
 		<url1>www.github.com/InisUAP/mulita</url1>
 		<url2>www.mulita.uap.edu.ar</url2>
 
@@ -117,8 +117,11 @@
 		<include><s>board.h</s></include>
 		<include><s>Mulita.h</s></include>
 	</includeFiles>
+	
 	<!--<initBoardCode>
 	</initBoardCode>-->
+
+	<!-- Columna de codigos -->
 	<initCode>
 		<s>#include &lt;mbq.h&gt;&#10;</s>
 		<s>#include &lt;Mulita.h&gt;&#10;</s>

@@ -48,7 +48,7 @@
 		<methodButton>
 			<has>true</has>
 			<imagesBasePath>thisBlockPath::</imagesBasePath>
-			<default>Images/condition.png</default>
+			<default>Images/ConditionDefault.png</default>
 			<disabled>Images/conditionDisabled.png</disabled>
 		</methodButton>
 	</interface>

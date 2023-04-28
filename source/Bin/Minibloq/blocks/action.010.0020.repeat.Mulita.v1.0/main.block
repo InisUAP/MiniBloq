@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <block xmlns="http://block.namespaces.minibloq.org" xmlns:minibloq="http://minibloq.org" MinibloqVersion="0.8.Beta">
+   
+   <!--Propiedades del bloque-->
     <properties>
 		<name>repeat</name>
 		<function>Flow</function>
 		<loadAction>load</loadAction>
     </properties>
+
+	<!-- este es el codigo que se muestra a la derecha cuando se presiona el bloque repeat-->
     <code>
 		<dataType>void</dataType>
 		<initialCode>
@@ -15,6 +19,8 @@
 		<paramListEnd>); _i++)</paramListEnd>
 		<keywords0>for</keywords0>
 	</code>
+
+	<!--Interfaz de como se ve el bloque-->
     <interface>
 		<originalSize>
 			<width>blockDefaultWidth::</width>
@@ -32,20 +38,25 @@
 			<B>flowBlockColour1B::</B>
 		</defaultBackgroundColour1>
 		<nextBlockIndentationTabs>1</nextBlockIndentationTabs>
+
+		<!--como se ve el bloque en la columna de codigo en bloque-->
 		<blockButton>
 			<has>true</has>
 			<imagesBasePath>thisBlockPath::</imagesBasePath>
 			<default>Images/BlockDefault.png</default>
 			<disabled>Images/BlockDisabled.png</disabled>
 		</blockButton>
+
+		<!--Como se ve el boton en la columna de acciones-->
 		<picker>
 			<imagesBasePath>thisBlockPath::</imagesBasePath>
 			<default>Images/PickerRepeatDefault.png</default>
-			<hover>Images/PickerRepeatHover.png</hover>
+			<hover>Images/PickerRepeatPressed.png</hover>
 			<pressed>Images/PickerRepeatPressed.png</pressed>
 			<disabled>Images/PickerRepeatDisabled.png</disabled>
 		</picker>
 		<methodButton>
+		<!--Como se ve la parte condicional de el bloque-->
 			<has>true</has>
 			<imagesBasePath>thisBlockPath::</imagesBasePath>
 			<default>Images/ConditionDefault.png</default>

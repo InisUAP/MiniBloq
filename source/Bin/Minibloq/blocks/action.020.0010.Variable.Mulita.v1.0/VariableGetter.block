@@ -32,7 +32,7 @@
 		<picker>
 			<imagesBasePath>thisBlockPath::</imagesBasePath>
 			<default>Images/GetterDefault.png</default>
-			<hover>Images/GetterHover.png</hover>
+			<hover>Images/GetterPressed.png</hover>
 			<pressed>Images/GetterPressed.png</pressed>
 			<disabled>Images/GetterDisabled.png</disabled>
 		</picker>

@@ -35,7 +35,7 @@
 		<picker>
 			<imagesBasePath>thisBlockPath::</imagesBasePath>
 			<default>Images/PickerDefault.png</default>
-			<hover>Images/PickerHover.png</hover>
+			<hover>Images/PickerPressed.png</hover>
 			<pressed>Images/PickerPressed.png</pressed>
 			<disabled>Images/PickerDisabled.png</disabled>
 		</picker>

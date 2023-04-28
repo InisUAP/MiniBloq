@@ -15,27 +15,34 @@
 		<mediumGettersDefaultWidth::>110</mediumGettersDefaultWidth::>
 		<smallGettersDefaultWidth::>56</smallGettersDefaultWidth::>
 		
-		<flowBlockColour0R::>255</flowBlockColour0R::>	<!--Color primer bloqque -init board   249 217 154    209 192 121-->
+		<!--Color primer bloqque -init board   249 217 154    209 192 121-->
+		<!--Color fondo bloques de 1/3 de la columna acciones-->
+		<flowBlockColour0R::>255</flowBlockColour0R::>	
 		<flowBlockColour0G::>240</flowBlockColour0G::>
 		<flowBlockColour0B::>156</flowBlockColour0B::>
-
+        
+		<!--Color fondo 1/3 botones de la columna acciones-->
 		<flowBlockColour1R::>243</flowBlockColour1R::>	
-		<flowBlockColour1G::>218</flowBlockColour1G::>
-		<flowBlockColour1B::>108</flowBlockColour1B::>
+		<flowBlockColour1G::>255</flowBlockColour1G::>
+		<flowBlockColour1B::>170</flowBlockColour1B::>
 
-		<operationBlockColour0R::>173</operationBlockColour0R::>
-		<operationBlockColour0G::>213</operationBlockColour0G::>
-		<operationBlockColour0B::>250</operationBlockColour0B::>	
-
-		<operationBlockColour1R::>110</operationBlockColour1R::>	<!--Fondo del bloque de operaciones ej.: suma, resta, etc-->
+		<!-- -->
+		<operationBlockColour0R::>0</operationBlockColour0R::>
+		<operationBlockColour0G::>0</operationBlockColour0G::>
+		<operationBlockColour0B::>0</operationBlockColour0B::>	
+        
+		<!--Fondo del bloque de operaciones ej.: suma, resta, etc-->
+		<operationBlockColour1R::>110</operationBlockColour1R::>	
 		<operationBlockColour1G::>180</operationBlockColour1G::>
 		<operationBlockColour1B::>200</operationBlockColour1B::>	
 		
+		
 		<getterBlockColour0R::>173</getterBlockColour0R::>
 		<getterBlockColour0G::>213</getterBlockColour0G::>
-		<getterBlockColour0B::>250</getterBlockColour0B::>	
-		
-		<getterBlockColour1R::>110</getterBlockColour1R::>	<!--Fondo del bloque de variables ej.: variable, random, etc-->
+		<getterBlockColour0B::>250</getterBlockColour0B::>
+
+		<!--Fondo del bloque de variables ej.: variable, random, etc-->
+		<getterBlockColour1R::>110</getterBlockColour1R::>	
 		<getterBlockColour1G::>180</getterBlockColour1G::>
 		<getterBlockColour1B::>200</getterBlockColour1B::>	
 
@@ -46,14 +53,19 @@
 		<sensorBlockColour1G::>110</sensorBlockColour1G::>
 		<sensorBlockColour1R::>180</sensorBlockColour1R::>
 		<sensorBlockColour1B::>200</sensorBlockColour1B::>	
-	
-		<setterBlockColour0R::>143</setterBlockColour0R::>	<!--Color superior de los bloques en este caso de la mulita 173 213 250-->
-		<setterBlockColour0G::>201</setterBlockColour0G::>
-		<setterBlockColour0B::>255</setterBlockColour0B::>			
+		
+	    <!--Color superior de los bloques en este caso de la mulita 173 213 250-->
+		<!--Color fondo de bloques del medio de la columna de acciones-->
+		<setterBlockColour0R::>110</setterBlockColour0R::>	
+		<setterBlockColour0G::>180</setterBlockColour0G::>
+		<setterBlockColour0B::>230</setterBlockColour0B::>
 
-		<setterBlockColour1R::>110</setterBlockColour1R::>	<!--Color inferior de los bloques en este caso de la mulita-->
+        <!--Color inferior de los bloques en este caso de la mulita-->
+		<!--Color fondo de botones del medio de la columna de acciones-->
+		<setterBlockColour1R::>110</setterBlockColour1R::>	
 		<setterBlockColour1G::>180</setterBlockColour1G::>
-		<setterBlockColour1B::>200</setterBlockColour1B::>			
+		<setterBlockColour1B::>230</setterBlockColour1B::>			
+
 
 		<constantBlockColour0R::>173</constantBlockColour0R::>
 		<constantBlockColour0G::>213</constantBlockColour0G::>
@@ -67,14 +79,17 @@
 		<numberConstantBlockMouseOverColourG::>213</numberConstantBlockMouseOverColourG::>
 		<numberConstantBlockMouseOverColourB::>250</numberConstantBlockMouseOverColourB::>			
 		
+		<!--Color del bloque comentario-->
 		<commentBlockColour0R::>195</commentBlockColour0R::>
 		<commentBlockColour0G::>219</commentBlockColour0G::>
 		<commentBlockColour0B::>136</commentBlockColour0B::>
 
+        <!--Color del fondo del boton comentario-->
 		<commentBlockColour1R::>185</commentBlockColour1R::>
 		<commentBlockColour1G::>209</commentBlockColour1G::>
-		<commentBlockColour1B::>126</commentBlockColour1B::>
+		<commentBlockColour1B::>170</commentBlockColour1B::>
 
+        <!--Color del bloque código-->
 		<codeBlockColour0R::>195</codeBlockColour0R::>
 		<codeBlockColour0G::>219</codeBlockColour0G::>
 		<codeBlockColour0B::>136</codeBlockColour0B::>

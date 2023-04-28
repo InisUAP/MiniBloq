@@ -58,8 +58,10 @@
 	<syntax>
 		<lexer>3</lexer>
 		
+        <!--Color de los operadores-->
 		<operatorColor>0,0,0</operatorColor>
 		<stringColor>150,0,0</stringColor>
+		<!--color de los include-->
         <preprocesorColor>165,105,0</preprocesorColor>
         <identifierColor>0,0,0</identifierColor>
         <numberColor>0,255,0</numberColor>

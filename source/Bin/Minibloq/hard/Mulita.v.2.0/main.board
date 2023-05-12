@@ -9,13 +9,13 @@
 		<!--URLs que llevan a los sitios de la mulita-->
 		<url0>www.thingiverse.com/inisuap/designs</url0>
 		<url1>www.github.com/InisUAP/mulita</url1>
-		<url2>www.mulita.uap.edu.ar</url2>
+		<url2>www.github.com/InisUAP/mulita</url2> 
 
 		<cpu>atmega328p</cpu>
 		<clockFreq>16000000L</clockFreq>
 
 		<!--Imagen principal-->
-		<imgMain>main.jpg</imgMain>
+		<imgMain>mulita.png</imgMain>
 		<!--Logo pequeño mostrado en la barra de navegaciòn de hardware-->
 		<imgThumb>thumb.png</imgThumb>
 

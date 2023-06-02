@@ -17,7 +17,7 @@
 		<!--Imagen principal-->
 		<imgMain>mulita.png</imgMain>
 		<!--Logo pequeño mostrado en la barra de navegaciòn de hardware-->
-		<imgThumb>thumb.png</imgThumb>
+		<imgThumb>thumb1.png</imgThumb>
 
 		<win_i386_lang>WinAVR/v20090313/bin</win_i386_lang>
 		<win_i386_uploader>avrdude.209130919.exe</win_i386_uploader>

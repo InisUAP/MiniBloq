@@ -9,8 +9,10 @@
   Sebastian J. Calderon
   Julian U. da Silva Gillig
   Analia Girardi Barreau
+  Rocio Learreta
+  Mayco Chavez
 
-  Este codigo es de dominio publico y modificado por ultima vez el 6 de septiembre de 2018.
+  Este codigo es de dominio publico y modificado por ultima vez el 2 de agosto de 2023.
 
 
 */
@@ -217,13 +219,13 @@ Mulita::Mulita()
 	 _i3 = 6;
 	 _i2 = 5;
 	 _i1 = 4;
-	 _pinecho = 13;
-	 _pintrigger = 12;
+	 _pinecho = 3;
+	 _pintrigger = 2;
 	 _abajo = 500;
 	 _arriba = 700;
    //_pasosPorGiro = 4100;
    _pasosPorGiro = 4080;
-   _servo = 3;
+   _servo = 12;
 
 	 _retardo = 1500;
 	 _distanciaCalculada;

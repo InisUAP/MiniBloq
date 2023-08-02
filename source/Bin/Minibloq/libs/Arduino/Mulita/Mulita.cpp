@@ -221,12 +221,14 @@ Mulita::Mulita()
 	 _pintrigger = 12;
 	 _abajo = 500;
 	 _arriba = 700;
-   _pasosPorGiro = 4100;
+   //_pasosPorGiro = 4100;
+   _pasosPorGiro = 4080;
    _servo = 3;
 
 	 _retardo = 1500;
 	 _distanciaCalculada;
-	 _vuelta = 18.4;  //Circunferencia validada con 3 giros completos de la rueda midiendo un total de 552 mm / 3 giros = 184 mm.
+   _vuelta = 19.289;
+	 //_vuelta = 18.4;  //Circunferencia validada con 3 giros completos de la rueda midiendo un total de 552 mm / 3 giros = 184 mm.
 
 
   pinMode(_d1,OUTPUT);
@@ -325,8 +327,22 @@ void Mulita::atras(double distancia)
 void Mulita::izquierda(double grados)                                                    
 {
   int i = 0;
-  for (int j = 0; j < (grados * 24.83); j++) {
+  for (int j = 0; j < (grados * 23.027); j++) {
     girarMotores('i', i);  
+    i++;
+    if(i == 8){
+
+      i = 0;
+    } 
+  }
+  apagarMotores();
+}
+
+void Mulita::giros()
+{
+  int i = 0;
+  for (int j = 0; j < (_pasosPorGiro); j++) {
+    girarMotores('A', i);  
     i++;
     if(i == 8){
       i = 0;
@@ -338,7 +354,7 @@ void Mulita::izquierda(double grados)
 void Mulita::derecha(double grados)                                                      
 {
   int i = 0;
-  for (int j = 0; j < (grados * 24.83); j++) {
+  for (int j = 0; j < (grados * 23.027); j++) {
     girarMotores('d', i);  
     i++;
     if(i == 8){

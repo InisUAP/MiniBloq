@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mbqc xmlns="http://mbqc.namespaces.minibloq.org" xmlns:minibloq="http://minibloq.org" MinibloqVersion="0.82.Beta">
+    <files/>
+    <properties>
+        <canvas visible="true"/>
+        <blocks count="33"/>
+    </properties>
+    <variables>
+        <ojos_radio/>
+        <cara_radio/>
+        <boca_radio/>
+    </variables>
+    <blocks>
+        <ComponentStart function="Flow" commented="false" instanceName="initBoard" paramsCount="0" hasAddParamsButton="false" loadAction="noLoad"/>
+        <VariableInit function="Setter" commented="false" constantValue="cara_radio" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <numberConstant function="Constant" commented="false" constantValue="6" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </VariableInit>
+        <VariableInit function="Setter" commented="false" constantValue="ojos_radio" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <numberConstant function="Constant" commented="false" constantValue="1" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </VariableInit>
+        <VariableInit function="Setter" commented="false" constantValue="boca_radio" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <numberConstant function="Constant" commented="false" constantValue="3" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </VariableInit>
+        <repeat function="Flow" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <numberConstant function="Constant" commented="false" constantValue="37" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </repeat>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaAdelante function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="1" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaAdelante>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaIzquierda function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="9.72" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaIzquierda>
+        </Mulita>
+        <repeatEnd function="Flow" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="brother"/>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaIzquierda function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="90" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaIzquierda>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaAtras function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="2" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaAtras>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaDerecha function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="90" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaDerecha>
+        </Mulita>
+        <repeat function="Flow" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <numberConstant function="Constant" commented="false" constantValue="6" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </repeat>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaAdelante function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="1" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaAdelante>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaIzquierda function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="60" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaIzquierda>
+        </Mulita>
+        <repeatEnd function="Flow" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="brother"/>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaSubirFibron function="Setter" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaAtras function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="4" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaAtras>
+        </Mulita>
+        <repeat function="Flow" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <numberConstant function="Constant" commented="false" constantValue="6" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </repeat>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaAdelante function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="1" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaAdelante>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaIzquierda function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="60" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaIzquierda>
+        </Mulita>
+        <repeatEnd function="Flow" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="brother"/>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaSubirFibron function="Setter" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaAdelante function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="2" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaAdelante>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaIzquierda function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="90" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaIzquierda>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaAdelante function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="6" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaAdelante>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaIzquierda function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="60" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaIzquierda>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaAdelante function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="3" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaAdelante>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaDerecha function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="90" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaDerecha>
+        </Mulita>
+        <repeat function="Flow" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <numberConstant function="Constant" commented="false" constantValue="9" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </repeat>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaAdelante function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="1" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaAdelante>
+        </Mulita>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaDerecha function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+                <numberConstant function="Constant" commented="false" constantValue="20" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+            </MulitaDerecha>
+        </Mulita>
+        <repeatEnd function="Flow" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="brother"/>
+        <Mulita function="Setter" commented="false" paramsCount="1" hasAddParamsButton="false" loadAction="load">
+            <MulitaSubirFibron function="Setter" commented="false" paramsCount="0" hasAddParamsButton="false" loadAction="load"/>
+        </Mulita>
+    </blocks>
+</mbqc>

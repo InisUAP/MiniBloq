@@ -9,6 +9,7 @@
 	Sebastian J. Calderon
 	Julian U. da Silva Gillig
 	Analia Girardi Barreau
+	Learreta Rocio
 
 	Este codigo es de dominio publico y modificado por ultima vez el 6 de septiembre de 2018.
 
@@ -38,6 +39,7 @@ public:
     int medirDistancia();
 	void MoverServo(int pos);
 	void fin();
+	void giros();
 
 
 private:
